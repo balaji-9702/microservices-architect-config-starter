@@ -28,6 +28,7 @@ kind: Service
 metadata:
   name: my-service
 spec:
+  type:LoadBalancer
   selector:
     app: ui-app
   ports:
